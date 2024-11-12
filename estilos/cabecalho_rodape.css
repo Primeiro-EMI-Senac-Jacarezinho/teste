@@ -1,0 +1,132 @@
+/* 
+
+display flex = Deixa o elemento flexível e alinha os elementos filhos em linha.
+
+flex-direction colunm = Alinha os elementos filhos em coluna.
+
+justify-content = Comando para alinhar os elementos horizontalmente quando o display for flex... Mas se o flex direction for column ele alinha verticalmente.
+
+align-items = Comando para alinhar os elementos verticalmente quando o display for flex... Mas se o flex direction for column ele alinha horizontalmente.
+
+
+*/
+@font-face {
+    font-family: 'seasons_regular';
+    src: url('../fonts/Seasons/Seasons_Regular.otf');
+ }
+
+ @font-face {
+    font-family: 'seasons_bold';
+    src: url('../fonts/Seasons/Seasons_Bold.otf');
+ }
+
+@font-face {
+    font-family: 'open_sans_medium';
+    src: url('../fonts/OpenSans/OpenSans-Medium.ttf');
+ }
+
+ @font-face {
+    font-family: 'open_sans_bold';
+    src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
+ }
+
+ @font-face {
+    font-family: 'open_sans_extra_bold';
+    src: url('../fonts/OpenSans/OpenSans-ExtraBold.ttf');
+ }
+
+* {
+    font-family: 'open_sans_extra_bold';
+}
+
+body {
+    margin: 0;
+}
+
+/* Começando a estilização do cabeçalho */
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #6B8E23;
+    display: flex;
+
+}
+
+#logotipo_cabecalho {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logotipo_cabecalho img {
+    height: 90%;
+}
+
+#titulo_cabecalho {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'seasons_bold';
+    font-size: 25px;
+}
+
+#titulo_cabecalho h1 {
+    margin: 0;
+    width: 90%;
+    text-align: center;
+    text-shadow: 5px 5px #fafad2;
+}
+
+
+#botoes_cabecalho {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    justify-content: space-evenly;
+}
+
+.botoes {
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #9ACD32 ;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.botoes:hover {
+    background-color: #6B8E23;
+    border: solid 2px white;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Término da estilização do cabeçalho */
+
+/* Início da estilização do rodapé */
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: #6B8E23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+/* Término da estilização do rodapé */

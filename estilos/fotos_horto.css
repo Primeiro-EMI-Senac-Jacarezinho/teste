@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'open_sans_bold';
+    src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
+ }
+
+/* Começando a estilização do corpo do blog */
+
+main {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafad2;
+}
+
+#linha1, #linha2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#linha1 img {
+    width: 90%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#linha2 img {
+    width: 50%;
+    height: 150px;
+    border-radius: 20px;
+}
+
+#img_linha1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto_linha1 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img_linha2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto_linha2 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linha1 p, #linha2 p {
+    width: 90%;
+    font-size: 18px;
+    font-family: 'open_sans_bold';
+    text-align: center;
+}
+
+
+/* Término da estilização do corpo do blog */
